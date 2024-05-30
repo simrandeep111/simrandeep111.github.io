@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+
+}
+
+#heading {
+    margin-left: 13px;
+    font-size: 258%;
+    color: #FFC720;
+    text-shadow: 5px 0px black;
+}
+
+h2 {
+    margin-left: 101px;
+    margin-top: 3px;
+
+}
+
+.p1 {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.p1::first-letter {
+    font-weight: bolder;
+    font-size: 250%;
+}
+
+.p2 {
+    font-weight: 400;
+    font-size: 136%;
+}
+
+.p3 {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+li {
+    color: #FFC720;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+a, a:link, a:visited{
+    color: #FFC720;
+}
+li::marker{
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+.p4 {
+    font-weight: bolder;
+    font-size: x-large;
+}
+.p5 {
+    font-size: large;
+}
+.footers{
+   text-align: center;
+   margin-top: 80px;
+   
+}
