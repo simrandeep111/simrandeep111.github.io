@@ -1,0 +1,107 @@
+
+html{
+    display: block;
+    width: 980px;
+    margin: auto;
+    border: 3px solid black;
+    box-shadow: 5px 10px 8px 10px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image:url("bats.gif") ;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 300px 300px;
+    
+
+    
+}
+body{
+    background-color: white;
+
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: block;
+    border: 3px solid black;
+    background: linear-gradient(45deg,white ,#f39303e9,black);
+
+}
+
+#heading {
+    display: inline;
+    margin-left: 13px;
+    font-size: 258%;
+    color: black;
+    
+}
+.container img{
+   margin-top: 23px;
+   margin-bottom: -40px;
+}
+
+h2 {
+    margin-left: 101px;
+    margin-top: 3px;
+    font-size: 180%;
+
+}
+
+.p1 {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.p1::first-letter {
+    font-weight: bolder;
+    font-size: 250%;
+}
+
+.p2 {
+    font-weight: 400;
+    font-size: 136%;
+}
+
+.p3 {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+li {
+    color: #FFC720;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+a, a:link, a:visited{
+    color: #FFC720;
+}
+li::marker{
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+.p4 {
+    font-weight: bolder;
+    font-size: x-large;
+}
+.p5 {
+    font-size: large;
+}
+.footers{
+   text-align: center;
+   margin-top:50px;
+      
+}
+.foot{
+    display: block;
+    border: 3px solid black;
+    background: linear-gradient(45deg,black ,#f39303e9,white);
+
+    
+    height: 100px;
+    
+}
+.pad{
+    padding: 10px;
+}
